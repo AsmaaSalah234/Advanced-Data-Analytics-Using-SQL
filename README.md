@@ -3,9 +3,9 @@ This project presents a comprehensive data analysis of a company's sales data us
 
 Throughout the project, I applied a wide range of SQL functions such as date functions, window functions, and conditional logic to perform robust and insightful analysis.
 
-##The main analyses performed include:
+###The main analyses performed include:
 
-Change Over Time Analysis:
+#Change Over Time Analysis:
 To visualize how sales metrics evolve over time, identify growth patterns, and detect seasonality in the business.
 
 Purpose:
