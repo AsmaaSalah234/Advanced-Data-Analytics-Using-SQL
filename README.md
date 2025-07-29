@@ -62,8 +62,8 @@ Purpose:
 
 SQL Functions Used:
     - Window Functions: SUM() OVER(), AVG() OVER()
-    ```sql
-    -- Calculate the total sales per month 
+```sql
+-- Calculate the total sales per month 
 -- and the running total of sales over time 
 SELECT
 	order_date,
@@ -79,8 +79,8 @@ FROM
     FROM gold.fact_sales
     WHERE order_date IS NOT NULL
     GROUP BY DATETRUNC(year, order_date)
-) t
-
+) t 
+```
 # Performance Analysis (Year-over-Year, Month-over-Month)
 Purpose:
     - To measure the performance of products, customers, or regions over time.
