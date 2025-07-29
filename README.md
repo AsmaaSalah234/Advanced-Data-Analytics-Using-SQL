@@ -1,3 +1,4 @@
+
 # Advanced-Data-Analytics-Using-SQL
 This project presents a comprehensive data analysis of a company's sales data using SQL. The goal is to extract actionable insights that help understand business performance over time, identify trends, and support strategic decisions. The analysis is structured into several key areas, each serving a different business purpose and utilizing appropriate SQL techniques.
 
@@ -50,3 +51,13 @@ FROM gold.fact_sales
 WHERE order_date IS NOT NULL
 GROUP BY FORMAT(order_date, 'yyyy-MMM')
 ORDER BY FORMAT(order_date, 'yyyy-MMM');
+
+# Cumulative Analysis
+
+Purpose:
+    - To calculate running totals or moving averages for key metrics.
+    - To track performance over time cumulatively.
+    - Useful for growth analysis or identifying long-term trends.
+
+SQL Functions Used:
+    - Window Functions: SUM() OVER(), AVG() OVER()
